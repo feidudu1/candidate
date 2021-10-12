@@ -1,3 +1,13 @@
+# 部署
+
+## yarn run build
+
+## yarn run deploy
+
+## push 代码即可
+
+## 每次代码更改后都要本地 yarn run build 然后 yarn run deploy，yarn run deploy 貌似可以远程操作线上的代码
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

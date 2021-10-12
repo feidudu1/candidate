@@ -1,15 +1,15 @@
 .prefixText {
-  font-size: 12px;
-  display: flex;
-  align-items: center;
+  font-size: 10px;
+  color: #999;
+}
+.adm-list-item-title,
+.adm-list-item-description {
+  color: #706e6e;
 }
 .prefixNo {
-  font-size: 15px;
+  font-size: 24px;
   font-weight: 500;
-  width: 28px;
-  height: 28px;
   display: inline-block;
-  border-radius: 50%;
   text-align: center;
   vertical-align: middle;
   margin: 0 5px;
@@ -44,16 +44,14 @@
 .type {
   font-size: 15px;
 }
-.red .prefixNo,
+.red.prefixNo,
 .red .type {
   color: red;
 }
-.red .prefixNo {
-  border: 1px dashed red;
+.red.prefixNo {
   color: red;
 }
-.blue .prefixNo {
-  border: 1px dashed #2c66da;
+.blue.prefixNo {
   color: #2c66da;
 }
 
@@ -90,12 +88,12 @@
   border: 1px dashed #333;
   padding: 10px 12px;
   line-height: 1.5;
-  font-size: 14px;
+  font-size: 16px;
 }
 .bluebold {
   color: #2c66da;
   font-weight: bolder;
 }
 .imgwechat {
-  width: 150px;
+  width: 200px;
 }
